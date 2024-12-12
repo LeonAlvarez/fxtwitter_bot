@@ -7,7 +7,7 @@ defmodule FxtwitterBot.Fixer do
   @xtwitter_replace ~r/https?:\/\/(www\.|mobile\.)?x.com/
   @xtwitter_fix "https://fixupx.com"
 
-  @instagram_regex ~r/https?:\/\/(www\.)?instagram.com\/(p|reel)/
+  @instagram_regex ~r/https?:\/\/(www\.)?instagram.com\/(p|reel|share\/reel)/
   @instagram_replace ~r/https?:\/\/(www\.)?instagram.com/
   @instagram_fix "https://ddinstagram.com"
 
